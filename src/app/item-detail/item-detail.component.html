@@ -1,0 +1,12 @@
+<div *ngIf="item">
+  Name<br>
+  <div class="ItemNameLabel">{{item.name}}</div><br>
+  Description<br>
+  <div class="ItemDescriptionLabel">{{item.description}}</div><br>
+  Price<br>
+  <div class="ItemPriceLabel">{{item.price}}</div><br>
+  Amount of Stock<br>
+  <div class="ItemStockLabel">{{item.amountOfStock}}</div>
+</div>
+<button>Edit</button>
+<button (click)="goBack()">go back</button>

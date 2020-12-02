@@ -1,0 +1,18 @@
+<div class="header-create">
+  <h2>Create Item</h2>
+</div>
+<form class="create-form">
+  <label for="nameField">Name</label><br>
+  <input #nameField type="text" id="nameField" name="name"><br>
+
+  <label for="description" >Description</label><br>
+  <textarea #descriptionField  id="description" name="description" cols="30" rows="10" maxlength="255" ></textarea><br>
+  <label for="price" id="price-label">Price</label>
+  <label for="stock">Amount of Stock</label><br>
+  <input #priceField type="number" id="price" name="price">
+  <input #amountField type="number" id="stock" name="stock"><br>
+
+  <button type="button" id="createButton" (click)="add(nameField.value, descriptionField.value, priceField.value, amountField.value)">Create</button>
+  <button type="button" id="cancelButton" (click)="returnToOverview()">Cancel</button>
+</form>
+

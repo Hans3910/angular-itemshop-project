@@ -1,0 +1,45 @@
+#order-title-logo {
+  height: 150px;
+  width: 400px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  font-size: 25px;
+  margin-right: 100px;
+  margin-top: 70px;
+
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: double;
+  border-color: black;
+}
+
+
+a:link {
+  color: red;
+  text-decoration: none;
+  text-align: center;
+  border: #003ffd;
+  border-style: solid;
+  width: 150px;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

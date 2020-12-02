@@ -1,0 +1,60 @@
+.item-image-container{
+  width: 400px;
+  height: 200px;
+  border-style: dotted;
+  backface-visibility: visible;
+  border-color: black;
+}
+
+.list-items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li{
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.header-items{
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: double;
+  border-color: black;
+  background-color: blue;
+}
+.item{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.item-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.price-and-urgency-container{
+  width: 400px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.low {
+  color: red;
+}
+
+.medium{
+  color: orange;
+}
+
+.high{
+  color: green;
+}
